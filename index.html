@@ -5,43 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
 </head>
 <body>
-    
-<div class="card">
-    <div class="search">
-        <input type="text" placeholder="Enter City Name" spellcheck="false">
-        <button>
-            <img src="images/search.png">
-        </button>
-    </div>
-    <div class="error">
-        <p>Invalid City Name</p>
-    </div>
-    <div class="weather">
-        <p class="weather-condition">'Rain'</p>
-        <img src="images/rain.png" alt="rain" class="weather-icon">
-        <h1 class="temp">18°c</h1>
-        <h2 class="city">Sylhet</h2>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button>
+                <img src="images/search.png">
+            </button>
+        </div>
+        <div class="error error-display">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <div class="weather-info">
+                <div class="location-date-container">
+                    <div class="location">
+                        <span class="material-symbols-outlined">location_on</span>
+                        <h4 class="place-txt">Dhaka</h4>
+                    </div>
+                    <h5 class="date-txt">wed, 07 Aug</h5>
+                </div>
+            </div>
+            <img src="images/rain.png" alt="rain" class="weather-icon">
+            <h1 class="temp">18°c</h1>
+            <p class="weather-condition">Rain</p>
 
-        <div class="details">
-            <div class="col">
-                <img src="images/humidity.png" alt="humidity">
-                <div>
-                    <p class="humidity">50%</p>
-                    <p class="humidity-text">Humidity</p>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p class="humidity-text">Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="wind">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p class="wind-text">Wind Speed</p>
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <img src="images/wind.png" alt="wind">
-                <div>
-                    <p class="wind">15 km/h</p>
-                    <p class="wind-text">Wind Speed</p>
-                </div>
-            </div>
+
+            <div class="forecast-items-container"></div>
+        </div>
+
+        <div class="search-msg">
+            <h1>
+                Search City
+            </h1>
+            <h3 class="regular-txt">
+                Find out the weather conditions of the city
+            </h3>
         </div>
     </div>
-</div>
 
 <script src="script.js"></script>
 </body>
