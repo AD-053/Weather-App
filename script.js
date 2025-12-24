@@ -1,6 +1,6 @@
 // console.log("Hare Krishna");
 
-const apiKey = "YOUR_API_KEY_HERE";
+const apiKey = "Your_Api_Key";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?";
 const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?";
 

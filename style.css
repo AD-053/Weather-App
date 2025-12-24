@@ -32,7 +32,7 @@ body::before{
     color: #fff;
     margin: 50px;
     border-radius: 20px;
-    padding: 40px 35px;
+    padding: 30px 35px;
     text-align: center;
     z-index: 1;
 }
@@ -52,14 +52,14 @@ body::before{
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .date-txt{
     padding: 10px;
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .search{
@@ -76,12 +76,11 @@ body::before{
     background: rgb(0,0,0,0.2);
     color: #fff;
     padding: 20px 25px;
-    height: 60px;
+    height: 40px;
     border-radius: 50px;
     flex: auto;
     margin-right: 15px;
-    margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .search input::placeholder{
@@ -89,9 +88,8 @@ body::before{
 }
 
 .search button{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
+    width: 45px;
+    height: 45px;
     border: 0;
     outline: 0;
     background: white;
@@ -104,22 +102,16 @@ body::before{
 }
 
 .weather-condition{
-    font-size: 35px;
+    font-size: 25px;
     font-style: italic;
 }
 
 .weather-icon{
-    width: 50%;
+    width: 40%;
 }
 
 .weather h1{
-    font-size: 60px;
-}
-
-.weather h2{
     font-size: 35px;
-    font-weight: 400;
-    margin-top: 5px;
 }
 
 .details{
@@ -127,8 +119,8 @@ body::before{
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .col{
@@ -191,7 +183,7 @@ body::before{
 }
 
 .forecast-item{
-    height: 150px;
+    height: 125px;
     min-width: 115px;
     background: rgb(255,255,255,0.1);
     display: flex;
@@ -208,8 +200,16 @@ body::before{
 }
 
 .forecast-item-img{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
+}
+
+.forecast-item-date{
+    font-size: 15px;
+}
+
+.forecast-item-temp{
+    font-size: 15px;
 }
 
 .search-msg{
